@@ -95,7 +95,7 @@ footer ul li:hover{
     /*transition: transform 0.5s;*/
     
 }
-@media (max-width: 480px) {
+@media (max-width: 600px) {
     ul {
       flex-direction: column; /* Coloca los elementos uno debajo del otro en pantallas pequeñas */
       align-items: center; /* Centra los elementos en el eje horizontal */
