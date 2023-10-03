@@ -1,0 +1,22 @@
+*{
+    font-family: 'Karma', serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.barraNavegacion{
+    background-color: #1C3245;
+}
+
+.tituloNav{
+    font-size: 1.6rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.titulosSecundariosNav{
+    font-size: 0.9rem;
+}
