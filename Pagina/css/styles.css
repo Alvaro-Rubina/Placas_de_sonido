@@ -5,8 +5,11 @@
     box-sizing: border-box;
     text-decoration: none;
     font-size: 1rem;
+    scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer y Edge */
     
 }
+
 
 .principal{
     background-color: #f0f4ef;
@@ -75,7 +78,7 @@ ul{
     
 }
 footer ul li{
-    padding-right: 2vh;
+    padding-right: 5vh;
     padding-top: 5vh;
     list-style-type: none;
     color: white;
@@ -98,3 +101,8 @@ footer ul li:hover{
       align-items: center; /* Centra los elementos en el eje horizontal */
     }
 }
+/*body::-webkit-scrollbar {
+    width: 0px; 
+}
+ Esconder barra de desplazamiento */ 
+
