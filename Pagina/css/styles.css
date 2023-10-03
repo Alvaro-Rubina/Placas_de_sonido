@@ -5,6 +5,19 @@
     box-sizing: border-box;
     text-decoration: none;
     font-size: 1rem;
+    
+}
+
+.principal{
+    background-color: #f0f4ef;
+}
+
+h1{
+    font-size: 2rem;
+    margin:auto;
+    margin-top: 40px;
+    font-weight: 700;
+    color: #1C3245;
 }
 
 .barraNavegacion{
@@ -20,31 +33,68 @@
 .titulosSecundariosNav{
     font-size: 0.9rem;
 }
+
+.bordeNav{
+    border-top: white solid 1px;
+}
+
+.imagen{
+    margin: auto;
+    margin-top: 0px;
+    width: 20%;
+    height: 100%;
+}
+h2{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.Driver{
+    background-color: #f0f4ef;
+}
+.texto{
+    margin: 15px;
+    text-align: justify;
+}
+.imagen1{
+    margin:auto;
+    width: 100%;
+    height: 1%;
+}
 footer{
-    position: fixed;
-    bottom: 0;
+    position: absolute;
     background-color: #1C3245;
     width: 100%;
-    height: 3.5em;
+    overflow-x: hidden;
+    
 }
 ul{
     display: flex;
     text-align: center;
     justify-content: space-between;
+    
+    
 }
 footer ul li{
-    margin-right: 1em;
-    margin-top: 1.2em;
+    padding-right: 2vh;
+    padding-top: 5vh;
     list-style-type: none;
     color: white;
     /*font-weight: bold;*/
     cursor: default;
     transition: transform 0.5s;
     will-change: transform;
+    line-height: 20px;
+    
     
 }
 footer ul li:hover{
     color: #5eaff7;
     /*transition: transform 0.5s;*/
-    transform: scale3d(1.1, 1.1, 1);
+    
+}
+@media (max-width: 480px) {
+    ul {
+      flex-direction: column; /* Coloca los elementos uno debajo del otro en pantallas pequeñas */
+      align-items: center; /* Centra los elementos en el eje horizontal */
+    }
 }
