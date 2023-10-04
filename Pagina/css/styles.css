@@ -5,8 +5,7 @@
     box-sizing: border-box;
     text-decoration: none;
     font-size: 1rem;
-    scrollbar-width: none; /* Firefox */
-  -ms-overflow-style: none; /* Internet Explorer y Edge */
+    
     
 }
 
@@ -22,17 +21,36 @@ h1{
     font-weight: 700;
     color: #1C3245;
 }
+nav span{
+    font-size: 1.6rem;
+    
+}
 
 .barraNavegacion{
     background-color: #1C3245;
+    
 }
 
 .tituloNav{
     font-size: 1.6rem;
     font-weight: bold;
     letter-spacing: 2px;
+    position: absolute;
+}
+@media (max-width: 991px){
+    .tituloNav{
+        position: relative;
+    }
 }
 
+.separador{
+margin-left: 25vh;
+}
+@media (max-width: 991px){
+    .separador{
+        margin-left: 0;
+    }
+}
 .titulosSecundariosNav{
     font-size: 0.9rem;
 }
