@@ -1,0 +1,132 @@
+*{
+    font-family: 'Karma', serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-size: 1rem;
+    
+    
+}
+
+
+.principal{
+    background-color: #f0f4ef;
+}
+
+h1{
+    font-size: 2rem;
+    margin:auto;
+    margin-top: 40px;
+    font-weight: 700;
+    color: #1C3245;
+}
+nav span{
+    font-size: 1.6rem;
+    
+}
+
+.barraNavegacion{
+    background-color: #1C3245;
+    
+}
+
+.tituloNav{
+    font-size: 1.6rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    position: absolute;
+}
+@media (max-width: 991px){
+    .tituloNav{
+        position: relative;
+    }
+}
+
+.separador{
+margin-left: 25vh;
+}
+@media (max-width: 991px){
+    .separador{
+        margin-left: 0;
+    }
+}
+.titulosSecundariosNav{
+    font-size: 0.9rem;
+}
+
+.bordeNav{
+    border-top: white solid 1px;
+}
+
+.imagen{
+    margin: auto;
+    margin-top: 0px;
+    width: 20%;
+    height: 100%;
+}
+h2{
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 2rem;
+
+}
+.Driver{
+    background-color: #f0f4ef;
+}
+.texto{
+    margin: 20px;
+    text-align: justify;
+    font-size: 1rem;
+}
+.imagen1{
+    margin:auto;
+    width: 100%;
+    height: 1%;
+}
+.flecha{
+    color: #1C3245;
+}
+footer{
+    position: absolute;
+    background-color: #1C3245;
+    width: 100%;
+    overflow-x: hidden;
+    
+}
+ul{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    
+    
+}
+footer ul li{
+    padding-right: 5vh;
+    padding-top: 5vh;
+    list-style-type: none;
+    color: white;
+    /*font-weight: bold;*/
+    cursor: default;
+    transition: transform 0.5s;
+    will-change: transform;
+    line-height: 20px;
+    
+    
+}
+footer ul li:hover{
+    color: #5eaff7;
+    /*transition: transform 0.5s;*/
+    
+}
+@media (max-width: 600px) {
+    ul {
+      flex-direction: column; /* Coloca los elementos uno debajo del otro en pantallas pequeñas */
+      align-items: center; /* Centra los elementos en el eje horizontal */
+    }
+}
+/*body::-webkit-scrollbar {
+    width: 0px; 
+}
+ Esconder barra de desplazamiento */ 
+
