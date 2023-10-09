@@ -10,6 +10,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Karma:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
   <title>TecnoBlog</title>
 </head>
@@ -23,36 +24,58 @@
           <i class="bi bi-justify text-white fs-5"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link text-white titulosSecundariosNav text-center bordeNav separador" aria-current="page" href="#Que_Es_Un_Driver">¿Qué es un Driver?</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white titulosSecundariosNav text-center" href="#Tarjeta">Tarjeta de Sonido</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white titulosSecundariosNav text-center " href="#Proceso">Proceso de digitalizacion del sonido</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white titulosSecundariosNav text-center" href="#Funcionamiento">Conclusión</a>
-            </li>
+          <div class="container">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-end">
+              <li class="nav-item">
+                <a class="nav-link text-white titulosSecundariosNav text-center bordeNav separador" aria-current="page" href="#Que_Es_Un_Driver">¿Qué es un Driver?</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white titulosSecundariosNav text-center" href="#Tarjeta">Tarjeta de Sonido</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white titulosSecundariosNav text-center " href="#Proceso">Proceso de digitalizacion del sonido</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white titulosSecundariosNav text-center" href="#Funcionamiento">Conclusión</a>
+              </li>
+            </ul>
+          </div>
         </div>
     </div>
   </nav> 
     <main>
     <!-- Seccion principal -->
-    <section class="principal align-items-stretch">
-      <article>
-        <div class="Principal1 d-flex flex-column justify-content-center">
-          <h1>Placa de sonido</h1>
-          <img class="imagen" src="img/parlantes-removebg-preview.png">
+    <section class="slider">
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/PlacaSonido1.png" class="d-block w-100 " alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/parlantes2.png" class="d-block w-100" alt="imagen1">
+          </div>
+          <div class="carousel-item">
+            <img src="img/PlacaSonido3.png" class=" d-block w-100" alt="imagen2">
+          </div>
+          <div class="carousel-item">
+            <img src="img/parlantes4.png" class=" d-block w-100" alt="imagen2">
+          </div>
         </div>
-      </article>
-    </section>
+        <button class="fecha carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <i class="bi bi-arrow-left-circle-fill flecha"></i>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="flecha carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <i class="bi bi-arrow-right-circle-fill flecha"></i>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+  </section>
     <section>
       <article>
         <div class="Driver d-flex flex-column justify-content-center" id="Que_Es_Un_Driver">
-          <h2>¿Qué es un Driver? </h2>
+          <h2 data-aos="fade-right" data-aos-duration="1200">¿Qué es un Driver? </h2>
+          
           <div class="texto">
           <p>
             Un driver es un software que conecta la computadora con el hardware. El driver le da instrucciones al sistema operativo sobre cómo debe funcionar determinado hardware.           </p>
@@ -64,7 +87,6 @@
             Estos controladores, que pueden acompañar al hardware o descargarse desde el sitio web del fabricante y resultan esenciales para que la tarjeta de sonido produzca cualquier tipo de sonido o para que los dispositivos periféricos se conecten adecuadamente a la computadora. La elección de controladores apropiados es fundamental, ya que la instalación de controladores incorrectos puede dejar inutilizable la tarjeta de sonido.
 
           </p>
-
         </div>
         </div>
 
@@ -73,7 +95,7 @@
     <section>
       <article>
         <div class="Driver d-flex flex-column justify-content-center" id="Tarjeta">
-          <h2>Tarjeta de sonido</h2>
+          <h2 data-aos="fade-right" data-aos-duration="1200">Tarjeta de sonido</h2>
           <div class="texto">
           <p>
             La tarjeta de sonido está encargada de convertir la información digital en señal eléctrica, la cual es enviada a los parlantes. El parlante la convierte en vibraciones.            </p>
@@ -107,7 +129,7 @@
     <section>
       <article>
         <div class="Driver d-flex flex-column justify-content-center" id="Proceso">
-          <h2>Proceso de digitalización del sonido</h2>
+          <h2 data-aos="fade-right" data-aos-duration="1200">Proceso de digitalización del sonido</h2>
           <div class="texto">
           <p>
             Consiste en tomar muestras que representan valores discretos del audio en determinados intervalos de tiempo.  
@@ -150,7 +172,7 @@
     <section>
       <article>
         <div class="Driver d-flex flex-column justify-content-center" id="Funcionamiento">
-          <h2>Sintetizando el funcionamiento de un parlante </h2>
+          <h2 data-aos="fade-right" data-aos-duration="1200">Sintetizando el funcionamiento de un parlante </h2>
           <div class="texto">
           <p>
             1. Señal de sonido: La computadora crea señales eléctricas que representan sonidos.
@@ -169,10 +191,12 @@
             Para concluir,  el desarrollo de las tarjetas de sonido, los controladores de audio y las técnicas de digitalización del sonido ha revolucionado la experiencia de audio en las computadoras personales, brindando a los usuarios una calidad de sonido excepcional y versatilidad en sus sistemas informáticos. Estos avances continúan desempeñando un papel central en la informática y el entretenimiento digital contemporáneos, mejorando constantemente la forma en que interactuamos con el sonido en nuestras PCs.
 
           </p>
-          <img class="imagen1" src="img/cuadro.jpg">
+          
         </div>
+        <div class="imgContent" data-aos="zoom-in">
+          <img class="imagenFinal" src="img/cuadroFinal.png">
+        </div>  
         </div>
-
       </article>
     </section>
   </main>
@@ -188,7 +212,10 @@
   </footer>
   <script src="js/app.js"></script>
   <script src="js/bootstrap.min.js"></script>
-  
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
