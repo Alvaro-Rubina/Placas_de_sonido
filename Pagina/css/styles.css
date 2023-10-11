@@ -189,14 +189,21 @@ footer .iconos-ig-gh{
 }
 
 .bi{
-    color: white;
+    font-size: 19px;
+}
+.bi-github{
+    color: #807d7d;
+    
+}
+.bi-linkedin{
+    color: #5599ff;
 }
 .persona:hover .iconos-ig-gh .bi-github:hover {
-    color: #000000; 
+    color: #cfcdcd; 
     
 }
 .persona:hover .bi-linkedin:hover {
-    color: #3161ff; 
+    color: #80b3ff; 
     
 }
 
@@ -206,9 +213,46 @@ footer .iconos-ig-gh{
     transition: transform 0.5s, opacity 0.3s;
 }
 
-
-
-
+@media (max-width: 600px) {
+    footer ul li{
+        padding-right: 5vh;
+        padding-top: 5vh;
+        list-style-type: none;
+        color: white;
+        /*font-weight: bold;*/
+        cursor: default;
+        transition: transform 0.5s;
+        will-change: transform;
+        line-height: 20px;
+        transform: translateY(-15px);
+        
+    }
+    
+    
+    .persona .iconos-ig-gh .bi-github {
+        color: #807d7d; 
+        
+    }
+    .persona .iconos-ig-gh .bi-linkedin {
+        color: #5599ff; 
+        
+    }
+    .persona:hover .iconos-ig-gh .bi-github:hover {
+        color: #807d7d; 
+        
+    }
+    .persona:hover .bi-linkedin:hover {
+        color: #5599ff; 
+        
+    }
+    
+    .persona .iconos-ig-gh{
+        opacity: 1;
+        transform: translateY(7px);
+        transition: transform 0.5s, opacity 0.3s;
+    }
+    
+}
 
 
 @media (max-width: 600px) {
