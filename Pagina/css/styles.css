@@ -163,9 +163,6 @@ ul{
     padding: 0vh;
     
 }
-.expandir{
-
-}
 footer ul li{
     padding-right: 5vh;
     padding-top: 5vh;
@@ -179,23 +176,37 @@ footer ul li{
     
     
 }
+
 footer ul li:hover{
-    color: #5eaff7;
     transform: translateY(-15px);
     
 }
 
 footer .iconos-ig-gh{
     color: white;
-    padding-right: 5.2vh;
     transition: opacity 0.8s ease, transform 0.8s ease;
     opacity: 0;
 }
+
+.bi{
+    color: white;
+}
+.persona:hover .iconos-ig-gh .bi-github:hover {
+    color: #000000; 
+    
+}
+.persona:hover .bi-linkedin:hover {
+    color: #3161ff; 
+    
+}
+
 .persona:hover .iconos-ig-gh{
     opacity: 1;
-    transform: translateY(-10px);
+    transform: translateY(7px);
     transition: transform 0.5s, opacity 0.3s;
 }
+
+
 
 
 
