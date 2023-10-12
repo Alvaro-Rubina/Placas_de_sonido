@@ -146,11 +146,21 @@ footer{
     overflow-x: hidden;
     
 }
+
 ul{
     display: flex;
     text-align: center;
     justify-content: space-between;
+}
+.persona {
+    flex-direction: column;
+    align-items: center;
+    color: white;
     
+}
+.nombre{
+    margin: 0;
+    padding: 0vh;
     
 }
 footer ul li{
@@ -166,15 +176,88 @@ footer ul li{
     
     
 }
+
 footer ul li:hover{
-    color: #5eaff7;
-    /*transition: transform 0.5s;*/
+    transform: translateY(-15px);
     
 }
+
+footer .iconos-ig-gh{
+    color: white;
+    transition: opacity 0.8s ease, transform 0.8s ease;
+    opacity: 0;
+}
+
+
+.bi-github{
+    color: #807d7d;
+    font-size: 19px;
+}
+.bi-linkedin{
+    color: #5599ff;
+    font-size: 19px;
+}
+.persona:hover .iconos-ig-gh .bi-github:hover {
+    color: #cfcdcd; 
+    
+}
+.persona:hover .bi-linkedin:hover {
+    color: #80b3ff; 
+    
+}
+
+.persona:hover .iconos-ig-gh{
+    opacity: 1;
+    transform: translateY(7px);
+    transition: transform 0.5s, opacity 0.3s;
+}
+
+@media (max-width: 600px) {
+    footer ul li{
+        padding-right: 5vh;
+        padding-top: 5vh;
+        list-style-type: none;
+        color: white;
+        /*font-weight: bold;*/
+        cursor: default;
+        transition: transform 0.5s;
+        will-change: transform;
+        line-height: 20px;
+        transform: translateY(-15px);
+        
+    }
+    
+    
+    .persona .iconos-ig-gh .bi-github {
+        color: #807d7d; 
+        
+    }
+    .persona .iconos-ig-gh .bi-linkedin {
+        color: #5599ff; 
+        
+    }
+    .persona:hover .iconos-ig-gh .bi-github:hover {
+        color: #807d7d; 
+        
+    }
+    .persona:hover .bi-linkedin:hover {
+        color: #5599ff; 
+        
+    }
+    
+    .persona .iconos-ig-gh{
+        opacity: 1;
+        transform: translateY(7px);
+        transition: transform 0.5s, opacity 0.3s;
+    }
+    
+}
+
+
 @media (max-width: 600px) {
     ul {
-      flex-direction: column; /* Coloca los elementos uno debajo del otro en pantallas pequeñas */
-      align-items: center; /* Centra los elementos en el eje horizontal */
+    flex-direction: column; 
+    align-items: center; 
     }
     
     h2{
