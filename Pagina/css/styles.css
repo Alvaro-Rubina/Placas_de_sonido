@@ -188,15 +188,14 @@ footer .iconos-ig-gh{
     opacity: 0;
 }
 
-.bi{
-    font-size: 19px;
-}
+
 .bi-github{
     color: #807d7d;
-    
+    font-size: 19px;
 }
 .bi-linkedin{
     color: #5599ff;
+    font-size: 19px;
 }
 .persona:hover .iconos-ig-gh .bi-github:hover {
     color: #cfcdcd; 
