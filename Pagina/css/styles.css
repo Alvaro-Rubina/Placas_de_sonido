@@ -182,7 +182,7 @@ footer ul li:hover{
     
 }
 
-footer .iconos-ig-gh{
+footer .icono-gh{
     color: white;
     transition: opacity 0.8s ease, transform 0.8s ease;
     opacity: 0;
@@ -191,23 +191,16 @@ footer .iconos-ig-gh{
 
 .bi-github{
     color: #807d7d;
-    font-size: 19px;
+    font-size: 20px;
 }
-.bi-linkedin{
-    color: #5599ff;
-    font-size: 19px;
-}
-.persona:hover .iconos-ig-gh .bi-github:hover {
+
+.persona:hover .icono-gh .bi-github:hover {
     color: #cfcdcd; 
     
 }
-.persona:hover .bi-linkedin:hover {
-    color: #80b3ff; 
 
-    
-}
 
-.persona:hover .iconos-ig-gh{
+.persona:hover .icono-gh{
     opacity: 1;
     transform: translateY(7px);
     transition: transform 0.5s, opacity 0.3s;
@@ -229,24 +222,17 @@ footer .iconos-ig-gh{
     }
     
     
-    .persona .iconos-ig-gh .bi-github {
+    .persona .icono-gh .bi-github {
         color: #807d7d; 
         
     }
-    .persona .iconos-ig-gh .bi-linkedin {
-        color: #5599ff; 
-        
-    }
-    .persona:hover .iconos-ig-gh .bi-github:hover {
+
+    .persona:hover .icono-gh .bi-github:hover {
         color: #807d7d; 
-        
-    }
-    .persona:hover .bi-linkedin:hover {
-        color: #5599ff; 
         
     }
     
-    .persona .iconos-ig-gh{
+    .persona .icono-gh{
         opacity: 1;
         transform: translateY(7px);
         transition: transform 0.5s, opacity 0.3s;
