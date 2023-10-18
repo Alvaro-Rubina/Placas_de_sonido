@@ -1,3 +1,8 @@
 {
+<<<<<<< HEAD
     "livePreview.defaultPreviewPath": "/Pagina/index.html"
+=======
+    "livePreview.defaultPreviewPath": "/Pagina/index.html",
+    "liveServer.settings.port": 5501
+>>>>>>> DiegoCar
 }
