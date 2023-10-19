@@ -57,7 +57,7 @@ nav span{
     display:none;
     background-repeat:no-repeat;
     font-size:20px;
-    color:#1C3245;
+    color:#2c93ee;
     cursor:pointer;
     position:fixed;
     bottom:10px;
@@ -91,7 +91,7 @@ nav span{
         display:none;
         background-repeat:no-repeat;
         font-size:50px;
-        color:#1C3245;
+        color:#2c93ee;
         cursor:pointer;
         position:fixed;
         bottom:50px;
@@ -141,7 +141,7 @@ nav span{
         display:none;
         background-repeat:no-repeat;
         font-size:50px;
-        color:#1C3245;
+        color:#2c93ee;
         cursor:pointer;
         position:fixed;
         bottom:50px;
@@ -240,7 +240,7 @@ width: 40vw;
     height: 1%;
 }
 .flecha{
-    color: #1C3245;
+    color: #2c93ee;
 }
 footer{
     position: absolute;
@@ -343,7 +343,7 @@ footer .icono-gh{
         display:none;
         background-repeat:no-repeat;
         font-size:50px;
-        color:#1C3245;
+        color:#2c93ee;
         cursor:pointer;
         position:fixed;
         bottom:50px;
@@ -379,7 +379,7 @@ footer .icono-gh{
         display:none;
         background-repeat:no-repeat;
         font-size:20px;
-        color:#1C3245;
+        color:#2c93ee;
         cursor:pointer;
         position:fixed;
         bottom:50px;
