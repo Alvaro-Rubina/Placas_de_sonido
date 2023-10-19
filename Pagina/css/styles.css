@@ -24,6 +24,7 @@ main{
     background-color: #f0f4ef;
 }
 
+
 h1{
     font-size: 2rem;
     margin:auto;
@@ -57,7 +58,7 @@ nav span{
     display:none;
     background-repeat:no-repeat;
     font-size:20px;
-    color:#2c93ee;
+    color:#1C3245;
     cursor:pointer;
     position:fixed;
     bottom:10px;
@@ -91,13 +92,20 @@ nav span{
         display:none;
         background-repeat:no-repeat;
         font-size:50px;
-        color:#2c93ee;
+        color:#1C3245;
         cursor:pointer;
         position:fixed;
         bottom:50px;
         right:10px;
         z-index:2;
+        color: #1C3245;
       }
+
+    .imgCard{
+        object-fit: cover;
+        height: 260px;
+        width: 100%;
+    }
     
 }
 
@@ -110,6 +118,13 @@ nav span{
         margin: auto;
         margin-bottom: 0px;
     }
+
+    .imgCard{
+        object-fit: cover;
+        height: 210px;
+        width: 100%;
+    }
+
     .flecha{
         font-size: 2rem;
         color: black;
@@ -141,7 +156,7 @@ nav span{
         display:none;
         background-repeat:no-repeat;
         font-size:50px;
-        color:#2c93ee;
+        color:#1C3245;
         cursor:pointer;
         position:fixed;
         bottom:50px;
@@ -343,7 +358,7 @@ footer .icono-gh{
         display:none;
         background-repeat:no-repeat;
         font-size:50px;
-        color:#2c93ee;
+        color:#1C3245;
         cursor:pointer;
         position:fixed;
         bottom:50px;
@@ -364,6 +379,7 @@ footer .icono-gh{
         text-align: center;
     }
 
+
     .imgContent{
         width: 100%;
     }
@@ -379,7 +395,7 @@ footer .icono-gh{
         display:none;
         background-repeat:no-repeat;
         font-size:20px;
-        color:#2c93ee;
+        color:#1C3245;
         cursor:pointer;
         position:fixed;
         bottom:50px;
